@@ -6,8 +6,8 @@
  * @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
 **/
 public with sharing class ManageAccounts {
-    public static List<Account> getaccounts() {
-        List<account> accountList = [SELECT id, name FROM Account limit 30];
+    public static List<Account> getAccounts() {
+        List<Account> accountList = [SELECT id, name FROM Account limit 30];
         return accountList;
     }
 }
